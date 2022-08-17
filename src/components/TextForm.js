@@ -24,6 +24,12 @@ export default function TextForm(props) {
     const newText = text.split(' ').map(el => el.charAt(0).toUpperCase()+el.slice(1)).join(' ');
     setText(newText);
   }
+  const handleCopy = ()=>{
+    var text = document.getElementById('myBox');
+    text.select();
+    navigator.clipboard.writeText(text.value);
+  }
+  
   const [text, setText] = useState('Enter Text Here.');
   return (
     <>
