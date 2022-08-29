@@ -1,3 +1,19 @@
+# TextUtils App
+
+TextUtils App can play with your text in different Manner of conversions , Copy , Clear and Many More...
+
+Has Functionality of Dark Mode & Light Mode.
+
+Made Up By Using HTML, CSS, JavaScript, BootStrap, React.
+
+Has Feature of Routing to reduce the Load of Data.
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
